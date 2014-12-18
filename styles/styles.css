@@ -13,7 +13,7 @@ body {
 }
 
 #page1 {
-  background: url(../images/colorful-background.jpg) no-repeat fixed;
+  background: url(../images/background.jpg) no-repeat fixed;
   background-size: 100%;
 }
 
@@ -26,4 +26,5 @@ body {
 
 #info1 {
   text-align: center;
+  a
 }
