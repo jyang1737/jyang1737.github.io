@@ -1,11 +1,29 @@
 html {
     left: 0;
-    margin-right: 0;
+    margin-right: 100;
 }
 
 body {
   width: 100%;
 }
 
-#HomeScreen {
-  
+.page {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  background: url(../images/colorful-background.jpg) no-repeat fixed;
+  background-size: 100%;
+}
+
+#name {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#info1 {
+  text-align: center;
+}
