@@ -13,7 +13,7 @@ body {
 }
 
 #page1 {
-  background: url(../images/background.jpg) no-repeat fixed;
+  background: url(../images/colorful-background.jpg) no-repeat fixed;
   background-size: 100%;
 }
 
@@ -22,9 +22,13 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 100px;
+  color:#9ec998;
+  font-size: 102;
+  font-weight: bold;
 }
 
 #info1 {
   text-align: center;
-  color:red;
+  color:#9ec998;
+  font-size: 100;
 }
