@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Terminal Quiz</title>
+        <h1>Terminal Quiz</h1>
+    </head>
+    <form name="input" method="GET" action="checkAnswers.py">
+        <br>
+        1. How do you find out what directory you are in?
+        <br>
+        <input type="radio" name="1,terminal commands" value="1"> pwd
+        <br>
+        <input type="radio" name="1,terminal commands" value="2"> ls
+        <br>
+        <input type="radio" name="1,terminal commands" value="3"> cd
+        <br><br>
+        2. How would you go up a directory?
+        <br>
+        <input type="radio" name="2,terminal commands" value="1"> cd ..
+        <br>
+        <input type="radio" name="2,terminal commands" value="2"> cd up
+        <br>
+        <input type="radio" name="2,terminal commands" value="3"> cd ~
+        <br><br>
+        3. How would you create a new directory called foo?
+        <br>
+        <input type="radio" name="3,terminal commands" value="1"> create foo
+        <br>
+        <input type="radio" name="3,terminal commands" value="2"> nano foo
+        <br>
+        <input type="radio" name="3,terminal commands" value="3"> mkdir foo
+        <br><br>
+        4. How would you rename a file foo, foo.html?
+        <br>
+        <input type="radio" name="4,terminal commands" value="1"> name foo foo.html
+        <br>
+        <input type="radio" name="4,terminal commands" value="2"> copy foo foo.html
+        <br>
+        <input type="radio" name="4,terminal commands" value="3"> mv foo foo.html
+        <br><br>
+        5. How would you edit a file foo in terminal
+        <br>
+        <input type="radio" name="5,strings" value="1"> edit foo
+        <br>
+        <input type="radio" name="5,strings" value="2"> nano foo
+        <br>
+        <input type="radio" name="5,strings" value="3"> cat foo
+        <input type="hidden" name="quizType" value="Terminal"><br>
+        <br>
+        <br>
+        <input type="submit" text="Submit">
+    </form>
+</html>
